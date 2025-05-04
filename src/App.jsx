@@ -1,8 +1,24 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Navigation from './components/Navigation'
+import Home from './pages/Home'
+import About from './pages/About'
+
 function App() {
   return (
-    <>
-      <h1 className="text-3xl text-blue-400">SHOPPING CART</h1>
-    </>
+    <Router>
+      <Navigation />
+
+      <Routes>
+        <Route
+          path="/"
+          element={<Home />}
+        />
+        <Route
+          path="/about"
+          element={<About />}
+        />
+      </Routes>
+    </Router>
   )
 }
 

@@ -6,7 +6,7 @@ const app = express()
 
 // To register router & respective routes
 import routes from './routes/index.js'
-app.use(routes)
+app.use('/api', routes)
 
 // const PORT = process.env.APP_PORT
 app.listen(APP_PORT, () => {

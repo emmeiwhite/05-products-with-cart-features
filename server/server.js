@@ -4,7 +4,7 @@ dotenv.config()
 import { APP_PORT } from './config/index.js'
 const app = express()
 
-// To register router
+// To register router & respective routes
 import routes from './routes/index.js'
 app.use(routes)
 

@@ -1,3 +1,7 @@
-# Take a Decision and take full responsibility for it.
+# 🚀 Products & Cart Functionality
 
-## Failure means "Not now,,... but not For ever"
+- React-Router-DOM
+- Tailwind
+- React-19
+- Optimizations
+- And more ...

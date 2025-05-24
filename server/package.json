@@ -13,6 +13,7 @@
   "dependencies": {
     "dotenv": "^16.5.0",
     "esm": "^3.2.25",
+    "joi": "^17.13.3",
     "nodemon": "^3.1.10"
   },
   "devDependencies": {

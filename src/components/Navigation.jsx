@@ -5,7 +5,7 @@ import cartIcon from './../assets/cart.png'
 const Navigation = () => {
   return (
     <nav className="">
-      <div className="max-w-[1140px] mx-auto px-4 py-4 flex items-center justify-between">
+      <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
         {/* Logo */}
         <Link to="/">
           <img
@@ -28,7 +28,7 @@ const Navigation = () => {
             <Link
               to="/products"
               className="text-gray-700 hover:text-blue-600 transition">
-              About
+              Products
             </Link>
           </li>
           <li>

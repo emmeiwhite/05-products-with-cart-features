@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom'
 
 const Hero = () => {
   return (
-    <section className="bg-gray-50 py-4 max-w-[1140px] mx-auto px-4 ">
-      <div className="max-w-[1140px] mx-auto px-4 flex items-center justify-between">
+    <section className="bg-gray-50 py-4 max-w-6xl mx-auto px-4 ">
+      <div className="max-w-6xl mx-auto px-4 flex gap-5 sm:gap-16 flex-col sm:flex-row items-center md:justify-between">
         {/* Left Content */}
-        <div className="max-w-md">
+        <div className="max-w-md order-1 sm:order-0 text-center sm:text-left">
           <p className="text-gray-600 text-lg mb-2">Are you hungry?</p>
-          <h1 className="text-4xl font-bold mb-6">
+          <h1 className="text-2xl sm:text-4xl font-bold mb-6">
             Don't wait<span className="text-orange-500">!</span>
           </h1>
           <Link
@@ -19,11 +19,11 @@ const Hero = () => {
         </div>
 
         {/* Right Image */}
-        <div>
+        <div className="order-0 sm:order-1">
           <img
             src={heroImg}
             alt="Delicious Pizza"
-            className="max-w-md w-full"
+            className="w-[120px] h-[auto] sm:max-w-md sm:w-full"
           />
         </div>
       </div>

@@ -23,7 +23,7 @@ const Hero = () => {
           <img
             src={heroImg}
             alt="Delicious Pizza"
-            className="w-[120px] h-[auto] sm:max-w-md sm:w-full"
+            className="w-[120px] h-[auto] sm:w-4/5"
           />
         </div>
       </div>

@@ -4,6 +4,7 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Products from './pages/Products'
 import Cart from './pages/Cart'
+import { useEffect, useState } from 'react'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           path="/"
           element={<Home />}
         />
+
         <Route
           path="/about"
           element={<About />}

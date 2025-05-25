@@ -4,7 +4,7 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Products from './pages/Products'
 import Cart from './pages/Cart'
-import { useEffect, useState } from 'react'
+import SingleProductPage from './pages/SingleProductPage'
 
 function App() {
   return (
@@ -25,6 +25,11 @@ function App() {
         <Route
           path="/products"
           element={<Products />}
+        />
+
+        <Route
+          path="/products/:productId"
+          element={<SingleProductPage />}
         />
 
         <Route
